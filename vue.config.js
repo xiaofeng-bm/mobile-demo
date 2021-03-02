@@ -5,7 +5,7 @@ function resolve(dir) {
 module.exports = {
   lintOnSave: false,
   outputDir: '../zailab_trial',
-  publicPath:
+  // publicPath:
     // process.env.NODE_ENV === "production" ? "/static/zailab_trial/" : "/",
   publicPath: process.env.NODE_ENV === "production" ? "/mobile-demo/" : "/",
   productionSourceMap: false,
