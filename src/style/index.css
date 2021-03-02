@@ -1,0 +1,73 @@
+@import "./element-theme.css";
+
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB,
+    Microsoft YaHei, Arial, sans-serif;
+}
+
+label {
+  font-weight: 700;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+.main-container {
+  padding: 20px;
+}
+
+/* ----------------------------- 再鼎客户常用主题色主题色 ---------------------- */
+.color-red {
+  color: #c30f1e;
+}
+/* 淡蓝色 */
+.color-lignt-blue {
+  color: #94b6d2;
+}
+.color-orange {
+  color: #dd8047;
+}
+/* 淡绿色 */
+.color-light-green {
+  color: #a5ab81;
+}
+.color-light-yellow {
+  color:  #d8b25c !important;
+}
+.color-blue {
+  color: #7ba79d;
+}
+.color-grey {
+  color: #968c8c;
+}
+
+/* ----------------------- reset vant style ------------------------ */
+.van-tag--primary {
+  background-color: #308ce9;
+}
+.van-tag--success {
+  background-color: #7ba79d;
+}
+.van-tag--danger {
+  background-color: #c30f1e;
+}
+.van-field__label {
+  width: 8.2em;
+}
